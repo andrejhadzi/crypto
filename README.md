@@ -38,9 +38,6 @@ pip install charm-crypto
 g++ -o benchmark benchmark.cpp -lntl -lgmp
 ./benchmark
 ```
-
-This benchmarks multiplication and exponentiation in prime-order subgroups \( G \subset \mathbb{Z}_p^* \).
-
 ---
 
 ### Elliptic Curve Benchmark (Python)
@@ -84,6 +81,11 @@ All benchmark outputs are stored in:
 - `benchmark_results.txt`
 - `curve_results.txt`
 - `elgamal_results.txt`
+
+---
+
+## 📝 Report
+Full report is available for download in report.pdf file.
 
 ---
 
