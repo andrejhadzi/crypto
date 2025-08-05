@@ -68,13 +68,22 @@ This script tests the performance of ElGamal encryption and decryption over elli
 
 ---
 
-## 📊 Output
+## 📊 Results
 
-Each benchmark returns minimum, maximum, and average CPU times for the tested operations. These results are printed to the terminal, for saving results just direct output like in example.
+Each benchmark returns minimum, maximum, and average CPU times for the tested operations. These results are printed to the terminal.
+
+To save the results:
 
 ```bash
-python elgamal_benchmark.py > output.txt
+python elgamal_benchmark.py > elgamal_results.txt
+python curve_benchmark.py > curve_results.txt
+./benchmark > benchmark_results.txt
 ```
+
+All benchmark outputs are stored in:
+- `benchmark_results.txt`
+- `curve_results.txt`
+- `elgamal_results.txt`
 
 ---
 
